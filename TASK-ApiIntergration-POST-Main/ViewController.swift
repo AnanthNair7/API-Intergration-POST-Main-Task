@@ -18,8 +18,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var makeLabel: UILabel!
     @IBOutlet weak var varientLabel: UILabel!
     
+    
     let year : [String] =  ["2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023"]
     var buttonTapped : Int?
+    var count : Int?
     var jsonData : Root?
     var jsonData1 : Root1?
     var jsonData2 : Root2?
@@ -54,6 +56,19 @@ class ViewController: UIViewController {
         getVairentResponse()
         self.tableView.reloadData()
     }
+    
+    @IBAction func doneBtnTapped(_ sender: UIButton) {
+        print("DONE BTN TAPPPED ")
+        let newVc = self.storyboard?.instantiateViewController(identifier: "second") as! SecondViewController
+        newVc.yearLbl = YearLabel.text
+        newVc.makeLbl = makeLabel.text
+        newVc.madeLbl = modelLabel.text
+        newVc.varientLbl = varientLabel.text
+        
+        self.navigationController?.pushViewController(newVc, animated: true)
+    }
+    
+    
     
     //MARK: MAKE RESPONSE
     
@@ -226,11 +241,15 @@ class ViewController: UIViewController {
 
 extension ViewController : UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if buttonTapped == 1 {
+        if buttonTapped == 1  {
             YearLabel.text = year[indexPath.row]
             tableView.isHidden = true
+            modelLabel.text = ""
+            makeLabel.text = ""
+            varientLabel.text = ""
+           
         }
-        if buttonTapped == 2 {
+        else  if buttonTapped == 2  {
             modelLabel.text = jsonData?.makeList[indexPath.row]
             tableView.isHidden = true
         }
