@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A464DF42A907E4A0077CB17 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A464DF32A907E4A0077CB17 /* SecondViewController.swift */; };
+		7A464DF62A90975A0077CB17 /* TbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A464DF52A90975A0077CB17 /* TbViewController.swift */; };
 		7A6BE32A2A8DEB4C0065DBD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6BE3292A8DEB4C0065DBD5 /* AppDelegate.swift */; };
 		7A6BE32C2A8DEB4C0065DBD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6BE32B2A8DEB4C0065DBD5 /* SceneDelegate.swift */; };
 		7A6BE32E2A8DEB4C0065DBD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6BE32D2A8DEB4C0065DBD5 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		7A464DF32A907E4A0077CB17 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7A464DF52A90975A0077CB17 /* TbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbViewController.swift; sourceTree = "<group>"; };
 		7A6BE3262A8DEB4C0065DBD5 /* TASK-ApiIntergration-POST-Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TASK-ApiIntergration-POST-Main.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6BE3292A8DEB4C0065DBD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A6BE32B2A8DEB4C0065DBD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				7A6BE3292A8DEB4C0065DBD5 /* AppDelegate.swift */,
 				7A6BE33D2A8DEDD30065DBD5 /* StructViewController.swift */,
 				7A6BE33F2A8DF47D0065DBD5 /* TableViewCell.swift */,
+				7A464DF52A90975A0077CB17 /* TbViewController.swift */,
 				7A464DF32A907E4A0077CB17 /* SecondViewController.swift */,
 				7A6BE32B2A8DEB4C0065DBD5 /* SceneDelegate.swift */,
 				7A6BE32D2A8DEB4C0065DBD5 /* ViewController.swift */,
@@ -150,6 +153,7 @@
 				7A464DF42A907E4A0077CB17 /* SecondViewController.swift in Sources */,
 				7A6BE3402A8DF47D0065DBD5 /* TableViewCell.swift in Sources */,
 				7A6BE32E2A8DEB4C0065DBD5 /* ViewController.swift in Sources */,
+				7A464DF62A90975A0077CB17 /* TbViewController.swift in Sources */,
 				7A6BE33E2A8DEDD30065DBD5 /* StructViewController.swift in Sources */,
 				7A6BE32A2A8DEB4C0065DBD5 /* AppDelegate.swift in Sources */,
 				7A6BE32C2A8DEB4C0065DBD5 /* SceneDelegate.swift in Sources */,
